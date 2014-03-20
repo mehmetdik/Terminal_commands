@@ -161,7 +161,7 @@ netstat -s
 46-sudo lsof -i|grep LISTEN == dinlenen portları gösterir
 
 
-47-wget  www.paubilisim.org ==>paubilisim indexini indirir
+47-wget url ==>url indexini indirir
 
 48-sudo nmap -sV -v 10.0.0.0-255 ==>aynı ağ üzerinde ki ip adres lerini gösterir
 
