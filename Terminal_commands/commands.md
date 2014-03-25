@@ -1,23 +1,24 @@
-1- sudo apt-get install mailutils
+<dl>
+1- <dt>sudo apt-get install mailutils</dt>
    top yaz çalışanları göster çalışanı durdurmak için killer yaz top da
 
-2-dpkg --get selections     ==>kurulan programların gösterir.
+2-<dt>dpkg --get selections</dt> ==>kurulan programların gösterir.
 
-3-sudo apt-get auto remove  ==>fazlalıkları siler
+3-<dt>sudo apt-get autoremove </dt>==>fazlalıkları siler
 
-4-youtube-dl "link"         ==>youtubeden video indirme
+4-<dt>youtube-dl "link"         </dt>==>youtubeden video indirme
 
-5-iptables -A INPUT -p tcp –dport <PORTNUMARASI> -j ACCEPT==port açmak için
-örnek==>	sudo iptables -A INPUT -p tcp --dport 25 -j ACCEPT
-
-
-6-ifconfig -a | grep eth     ==>
-
-7-sudo lshw -class network   ==>Sisteminizde mevcut tüm ağ arayüzleri belirlemenize yardımcı olabilir başka bir uygulama lshw komut. Aşağıdaki örnekte, lshw otobüs bilgi, sürücü ayrıntıları ve tüm desteklenen yetenekleri ile birlikte eth0 mantıksal adıyla tek bir Ethernet arabirimi gösterir.
+5-<dt>iptables -A INPUT -p tcp –dport <PORTNUMARASI> -j ACCEPT</dt>==port açmak için
+<dt>örnek</dt>==>	sudo iptables -A INPUT -p tcp --dport 25 -j ACCEPT
 
 
-8-cd /var    ==>log kayıtlarını gösterir log sistemde ne yapıldığını gösterir
-  cd log
+6-<dt>ifconfig -a | grep eth  </dt>   ==>
+
+7-<dt>sudo lshw -class network  </dt> ==>Sisteminizde mevcut tüm ağ arayüzleri belirlemenize yardımcı olabilir başka bir uygulama lshw komut. Aşağıdaki örnekte, lshw otobüs bilgi, sürücü ayrıntıları ve tüm desteklenen yetenekleri ile birlikte eth0 mantıksal adıyla tek bir Ethernet arabirimi gösterir.
+
+
+8-<dt>cd /var   </dt> ==>log kayıtlarını gösterir log sistemde ne yapıldığını gösterir
+  <dt>cd log</dt>
 
 9-sudo apt-get install ethtool   ==>ethtool gibi oto-müzakere, port hızı, dubleks modu, ve Wake-on-LAN gibi ethernet kartı ayarlarını görüntüler ve değiştiren bir programdır. Bu varsayılan olarak yüklenen, ama depolarda yükleme için kullanılabilir değil
 
@@ -205,10 +206,6 @@ netstat -s
   ./isim.sh
 
 65-nautilus==>dosya aç
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  
 </dl>
